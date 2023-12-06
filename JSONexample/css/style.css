@@ -1,0 +1,13 @@
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(1fr,4);
+    gap: 2%;
+}
+
+article{
+    border: 1px solid green;
+}
+
+img{
+    max-width: 100%;
+}
