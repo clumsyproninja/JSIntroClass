@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Basics</title>
+</head>
+<body>
+    <header>
+        <h1>Forms and Event Example</h1>
+    </header>
+    <main>
+        <h2>Simple Form</h2>
+        <form action="" method="post">
+            <label for="username">
+            <p hidden>Username:</p>
+            <input type="text" id="username" placeholder="user123">
+            </label>
+
+            <label for="myPass">
+                <p>Password:</p>
+                <input type="password" id="myPass" placeholder="Ex: 123abc!">
+            </label>
+        </form>
+        <h2>Output</h2>
+        <p id="outUser">Output 1</p>
+        <p id="outPass">Output 2</p>
+    </main>
+    <script src="js/functions.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Conditions, Loops and Arrays</a></li>
+            <li><a href="validation.html">Validation</a></li>
+        </ul>
+    </nav>
+    <h1>Validation</h1>
+    <form id="signup" method="get" action="">
+        <label for="username">
+            <input type="text" placeholder="Enter a username" id="username" name="username"/>
+        </label>
+        <p id="userError"></p>
+        <label for="pass">
+            <input type="password" placeholder="Enter a password" id="pass" name="pass"/>
+        </label>
+        <p id="pwError"></p>
+        <input type="submit" value="Create Account!" />
+    </form>
+    <p id="status">Status: The form was not submitted!</p>
+    <script src="js/validate.js"></script>
+</body>
+</html>

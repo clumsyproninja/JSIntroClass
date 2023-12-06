@@ -1,0 +1,6 @@
+document.getElementById("productName").addEventListener("keyup", displayName)
+document.getElementById("productDesc").addEventListener("keyup", displayDesc)
+document.getElementById("productPrice").addEventListener("keyup", displayPrice)
+document.getElementById("productQuantity").addEventListener("keyup", displayQuantity)
+document.getElementById("calcTotal").addEventListener("click", displayTotalPrice)
+document.getElementById("productQuantity").addEventListener("keyup", displayTotalPrice)

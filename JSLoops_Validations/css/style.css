@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
+
+form{
+    border: 1px solid lightgreen;
+    border-radius: 50px;
+    padding: 10px 3%;
+    width: 60%;
+}
+
+input{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid orange;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.validInput{
+    border: 3px solid greenyellow;
+}
+
+.validInput:focus{
+    border-color: aquamarine;
+}
+
+.invalidInput{
+    border: 3px solid red;
+}
+
+.invalidInput:focus{
+    border-color: #ff9999;
+}
+
+.validRule{
+    color: lightgreen;
+    text-decoration: line-through;
+    list-style-type: "\2713";
+}
+
+.invalidRule{
+    color: pink;
+    font-weight: bold;
+    list-style-type: "❌";
+}
+
+#pwdRules{
+    font-size: .8em;
+    background-color: rgb(37, 0, 0);
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.rulesList{
+    padding-left: 10%;
+}
+
+.showItem{
+    display: block;
+}
+
+.hideItem{
+    display: none;
+}

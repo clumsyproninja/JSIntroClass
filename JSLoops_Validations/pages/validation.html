@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Validation</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Conditions, Loops and Arrays</a></li>
+            <li><a href="">Validation</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Validation</h1>
+        <form id="signup" method="get" action="">
+            <label for="username">
+                <input id="username" type="text" name="username" placeholder="Enter a username">
+            </label>
+            <p id="userError"></p>
+            <label for="pass">
+                <input id="pass" name="pass" type="password" placeholder="Enter a password">
+            </label>
+            <section id="pwdRules" class="hideItem">
+                <p>Password Rules: </p>
+                <ul class="rulesList">
+                    <li>At least 8 characters.</li>
+                    <li>At least one lower case character</li>
+                    <li>At least one upper case character</li>
+                    <li>At least one of the following special characters: !@#$%&*.</li>
+                </ul>
+            </section>
+            <!-- <p id="passError"></p> -->
+            <input type="submit" value="Create Account!">
+        </form>
+        <p id="status">Status: The form was not submitted!</p>
+    
+    </main>
+    <script src="../js/validate.js"></script>
+</body>
+</html>

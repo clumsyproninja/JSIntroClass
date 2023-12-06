@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice Events</title>
+</head>
+<body>
+    <h1>Forms, Events, and Event Listeners</h1>
+    <form action="" method="get">
+        <label for="productName">
+            <p>Product Name:</p>
+            <input type="text" id="productName" placeholder="Enter a name...">
+        </label>
+        <label for="productDesc">
+            <p>Product Description:</p>
+            <textarea name="productDesc" id="productDesc" cols="50" rows="15" placeholder="Enter a description..."></textarea>
+        </label>
+        <label for="productPrice">
+            <p>Product Price:</p>
+            $<input type="number" id="productPrice" placeholder="Enter a price...">
+        </label>
+        <label for="productQuantity">
+            <p>Product Quantity:</p>
+            <input type="number" id="productQuantity" placeholder="Enter an amount...">
+        </label>
+        <input type="submit" value="Calculate Total" id="calcTotal">
+    </form>
+
+    <h2 id="outName">Product Name</h2>
+    <p id="outDesc">Product Description</p>
+    <p id="outPrice">Product Price</p>
+    <p id="outQuantity">Product Quantity</p>
+
+    <hr>
+
+    <h2 id="totalCost">Total Cost: $</h2>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

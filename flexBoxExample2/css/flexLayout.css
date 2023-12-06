@@ -1,0 +1,28 @@
+article{
+    width: 23%;
+    height: 20vh;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 3em;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px 2%;
+}
+
+.galleryItem{
+    height: 50vh;
+}
+
+article:nth-of-type(3){
+    order: 1;
+}
+
+article:nth-of-type(6){
+    flex-grow: 1;
+}
